@@ -21,10 +21,10 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nI am VC Music Player 2.2. Which plays music in Channels and Groups 24*7\n\nI can even Stream Youtube Live in Your Voice Chathat\n\nDeploy Your Own bot from source code below\n\nHit /help to know about available commands.\n\n▷ Please Subscribe ❤️ @ZauteKm</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nI am @TAMILROCKERSVPN Music Player"
 HELP = """
 
-<b>Add the bot and User account in your Group with admin rights.
+<b>.
 
 Start a VoiceChat
 
@@ -63,12 +63,12 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/iZaute/8'),
+        InlineKeyboardButton('👥 Group', url='https://t.me/tamilblasterslive'),
+        InlineKeyboardButton('Dubbed', url='https://t.me/TRVPN'),
     ],
     [
-        InlineKeyboardButton('🤫 Source', url='https://t.me/iZaute/7'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('🤫 Source', url='https://t.me/TRVPN'),
+        InlineKeyboardButton('Channel 📢', url='https://t.me/TAMILROCKERSVPN'),
     ],
     [
         InlineKeyboardButton('🔻Help & Information 🔻', callback_data='help'),
@@ -84,12 +84,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/iZaute/8'),
+            InlineKeyboardButton('👥 Group', url='https://t.me/tamilblasterslive'),
+            InlineKeyboardButton('movie', url='https://t.me/Trvpn'),
         ],
         [
-            InlineKeyboardButton('🙄 Source', url='https://t.me/iZaute/7'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('🙄 Source', url='https://t.me/trvpn'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/trvpn'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
